@@ -49,73 +49,77 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+
+
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+    emoji("⚡ Data Science: Analysis & Insights"),
+    emoji("⚡ MERN Stack Development"),
+    emoji("⚡ Problem Solving in Python"),
+    emoji("⚡ Generative AI (Fine Tuning Large LLM's)"),
+    emoji("⚡ Third-Party Service Integration (Firebase, Digital Ocean)"),
+    emoji("⚡ SQL Databases & ORM (MySQL, PostgreSQL, Sequelize)"),
+    emoji("⚡ TypeScript & Redux"),
+    emoji("⚡ MVC Architecture & Server-side Templating"),
+    emoji("⚡ AJAX & RESTful APIs"),
+    emoji("⚡ Git Version Control"),
+    
+    emoji("⚡ Mobile Development (Flutter)")
+],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
-  ],
+softwareSkills: [
+  {
+    skillName: "HTML5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "React.js",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "SQL Database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "Data Science",
+    fontAwesomeClassname: "fas fa-flask"
+  },
+  {
+    skillName: "Large Language Models (LLMs)",
+    fontAwesomeClassname: "fas fa-brain"
+  },
+  {
+    skillName: "Git Version Control",
+    fontAwesomeClassname: "fab fa-git"
+  }
+]
+,
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -208,31 +212,43 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "some statment here",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/reviewlogo.png"),
+      projectName: "Review HUB",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/analysis.png"),
+      projectName: "ECG Data Analysis",
+      projectDesc: "Analyzing ECG Data for Arrhythmia Detection",
+      footerLink: [
+        {
+          name: "Visit Repository",
+          url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/reviewlogo.png"),
+      projectName: "Review HUB",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
