@@ -217,10 +217,10 @@ const bigProjects = {
     {
       image: require("./assets/images/reviewlogo.png"),
       projectName: "Review HUB",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Sentiment Analysis tool for Youtube Video Comments and Amazon Product Reviews",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Repository",
           url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
         }
         //  you can add extra buttons here.
@@ -233,18 +233,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Repository",
-          url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
+          url: "https://github.com/FurqanAhmad2/ECG-Data-Analysis"
         }
       ]
     },
     {
-      image: require("./assets/images/reviewlogo.png"),
-      projectName: "Review HUB",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/compl.png"),
+      projectName: "Complain Management System",
+      projectDesc: "CMS Coded in FLutter with Integration of MY-SQL database",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://github.com/FurqanAhmad2/ReviewHUB_Front-End"
+          name: "Visit Repository",
+          url: "https://github.com/FurqanAhmad2/Complain_System-Flutters-"
         }
         //  you can add extra buttons here.
       ]
@@ -265,9 +265,9 @@ const achievementSection = {
     {
       title: "DEAN's List 2020",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "",
       image: require("./assets/images/deans.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "",
       footerLink: [
         {
           name: "Certification",
@@ -279,9 +279,9 @@ const achievementSection = {
     {
       title: "DEAN's List FALL 2021",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "",
       image: require("./assets/images/2021.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "",
       footerLink: [
         {
           name: "Certification",
@@ -293,9 +293,9 @@ const achievementSection = {
 
     {
       title: "DEAN's List SPRING 2021",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "",
       image: require("./assets/images/s2021.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "",
       footerLink: [
         {
           name: "Certification",
